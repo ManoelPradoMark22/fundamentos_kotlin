@@ -62,4 +62,8 @@ fun main() {
 
     println("x !in range = ${x !in range}")
     println("y !in range = ${y !in range}")
+
+    val z = 10
+    println("z = $z")
+    println("z in 1..20 = ${z in 1..20}")
 }

@@ -25,6 +25,10 @@ fun main() {
     num4--
     println("num4-- -> num4 = $num4")
 
+    println("num3 = $num3")
+    ++num3//usado antes da variavel
+    println("++num3 -> num3 = $num3")
+
     //Atribuição composta
     println("----------")
 
