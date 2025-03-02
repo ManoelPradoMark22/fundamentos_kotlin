@@ -33,10 +33,24 @@ fun main() {
 
     println(d)
 
-    //funcao LET - executa apenas se o valor nao for null
+    //funcao LET - Evitar repetição de variáveis (it como referência ao objeto)
 
-    //apenas se b nao for nulo esse codigo dentro do escopo é executado
-    b?.let {it ->
-        println(it)
+    var z: Int? = null
+
+    //O let é frequentemente usado com o operador "safe call" (?.) para evitar NullPointerException.
+    //apenas se z nao for nulo esse codigo dentro do escopo é executado
+    z?.let {it ->
+        println("1 - dentro do let. z = $it")
+    }
+
+    val nome: String? = "Kotlin"
+
+    nome?.let {
+        println("Olá, $it!")
+    } ?: println("Nome é nulo")
+
+    val numero: Int? = null
+    numero?.let {
+        println(it * 2)
     }
 }

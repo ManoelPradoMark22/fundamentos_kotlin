@@ -10,6 +10,8 @@ fun main() {
     mutableList.add(4)
 
     println(list)
+    println(list[1])
+
     println(mutableList)
 
     val listInt: List<Int> = list.filterIsInstance<Int>() //filtra de acordo com a instancia do tipo passado -> nesse caso: <Int>

@@ -18,6 +18,7 @@ fun main() {
 
     //-------------------
     //lazy - inicializacao é feita na primeira vez que ela é utilizada!
+    //lazy é mais vantajoso usar quando a inicialização deve ocorrer sob demanda
 
     val b: String by lazy {
         //....

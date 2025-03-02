@@ -61,6 +61,10 @@ fun main() {
     println(mapMutable)
 
     mapMutable[3] = "new 3 value" //mapMutable.put(key = 3, value = "new 3 value")
+    println("mapMutable[3] = ${mapMutable[3]}")
+    println("mapMutable.get(3) = ${mapMutable.get(3)}")
+    println("mapMutable['Kotlin'] = ${mapMutable["Kotlin"]}")
+    println("mapMutable.get('Kotlin') = ${mapMutable.get("Kotlin")}")
     println(mapMutable)
     mapMutable.remove("Kotlin")
     println(mapMutable)

@@ -61,4 +61,11 @@ fun main() {
         4
     }
     println("t = $t")
+
+    try {
+        val resultado = 10 / 0
+        println(resultado)
+    } catch (e: Exception) {
+        println("Erro: divisão por zero")
+    }
 }
