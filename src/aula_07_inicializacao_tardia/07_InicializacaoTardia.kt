@@ -27,7 +27,7 @@ fun main() {
 
 
     //lateinit var c: Int //nao pode dessa forma para tipos primitivos!
-    var c: Int by Delegates.notNull() // dessa forma funciona
+    var c: Int by Delegates.notNull() // dessa forma funciona.
     c = 10
     println("lateinit with Int - var c: Int by Delegates.notNull() / c = $c")
 }
