@@ -1,4 +1,4 @@
-package aula_09_lacos_de_repeticao
+package aula_10_lacos_de_repeticao
 
 fun main () {
 
