@@ -26,7 +26,7 @@ class Car2(val model: String, val year: Int) {
 
 fun main() {
 
-    //mas note que, para tanto, precisamos primeiro instanciar a classe superior, para entao instanciar a interna
+    //mas note que, para tanto, precisamos primeiro instanciar a classe superior, para entao instanciar a interna.
     val car = Car2(model = "Chevrolet Onix", year = 2021)
     val carEngine = car.Engine()
     val carEngineFuelType = carEngine.Fuel(typeName = "Gasolina")
