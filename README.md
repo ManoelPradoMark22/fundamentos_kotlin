@@ -2,7 +2,7 @@
 <br/>
 Instrutor: <a href="https://br.linkedin.com/in/bernardo-slailati" target="_blank"><b>Bernardo Slailati</b></a>
 
-Fundamentos - Kotlin:
+Anotações sobre o módulo "Fundamentos - Kotlin":
 - 📂<a href="https://github.com/ManoelPradoMark22/fundamentos_kotlin/tree/master/src/aula_01_mutabilidade_imutabilidade" target="_blank"><b>aula_01_mutabilidade_imutabilidade</b></a>
 - 📂<a href="https://github.com/ManoelPradoMark22/fundamentos_kotlin/tree/master/src/aula_02_tipos_dados" target="_blank"><b>aula_02_tipos_dados</b></a>
 - 📂<a href="https://github.com/ManoelPradoMark22/fundamentos_kotlin/tree/master/src/aula_03_detalhes_tipos_dados" target="_blank"><b>aula_03_detalhes_tipos_dados</b></a>
